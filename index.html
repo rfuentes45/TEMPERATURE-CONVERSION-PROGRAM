@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    
+    <form>
+        <h1>Temperature Conversion</h1>
+        <input type="number" id="textbox" value="0"> <br> <!-- this is so we have a number in box where it starts at 0 -->
+
+        <!-- we will create two radio buttons along with labels-->
+
+        <input type="radio" id="toFahrenheit" name="unit">
+        <label for="toFahrenheit">Celsius → Fahrenheit</label> <br> <!-- we can create emojis with ctrl + cmd + space-->
+
+        <input type="radio" id="toCelsius" name="unit">
+        <label for="toCelsius">Fahrenheit → Celsius</label> <br>
+
+        <button type="button" onclick="convert()">Submit</button>
+        <p id="result">Select a unit</p>
+    </form>
+
+<script src="index.js"></script>
+</body>
+</html>

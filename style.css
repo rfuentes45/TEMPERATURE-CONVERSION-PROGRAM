@@ -1,0 +1,56 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: lightgray
+}
+
+h1{
+    color: blue;
+}
+
+form{
+    background-color: white;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px red; /* the first value is horizontal, vertical, then blur radius*/
+}
+
+/* now we change textbox*/
+
+#textbox{
+    width: 50%; 
+    text-align: center;
+    font-size: 2em; /* this means 200%*/
+    border: 2px solid ;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* next we do radio buttons with styling the "labels"*/
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    background-color: lightblue;
+    font-size: 1.5em; /* this means 150% for em */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+button:hover{ /* THIS IS THE PSEUDO CLASS FOR HOVERING OVER THE BUTTON */
+    background-color: blue;
+}
+
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
